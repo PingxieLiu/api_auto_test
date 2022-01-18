@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="测试套件" >
+    <test name="测试">
+        <classes>
+            <!--<class name="auto.Day18.ketang.testcases.LoginTest"/>
+            <class name="auto.Day18.ketang.testcases.ProductSearchTest"/>
+            <class name="auto.Day18.ketang.testcases.ShopcartTest"/>-->
+            <class name="auto.Day19.lianxi.testcases.LoginTest"/>
+            <class name="auto.Day19.lianxi.testcases.ProductSearchTest"/>
+            <class name="auto.Day19.lianxi.testcases.ShopcartTest"/>
+            <class name="auto.Day19.lianxi.testcases.RegisterTest"/>
+
+        </classes>
+    </test>
+</suite>
