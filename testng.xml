@@ -6,10 +6,10 @@
             <!--<class name="auto.Day18.ketang.testcases.LoginTest"/>
             <class name="auto.Day18.ketang.testcases.ProductSearchTest"/>
             <class name="auto.Day18.ketang.testcases.ShopcartTest"/>-->
-            <class name="auto.Day19.lianxi.testcases.LoginTest"/>
-            <class name="auto.Day19.lianxi.testcases.ProductSearchTest"/>
-            <class name="auto.Day19.lianxi.testcases.ShopcartTest"/>
-            <class name="auto.Day19.lianxi.testcases.RegisterTest"/>
+            <class name="auto.testcases.LoginTest"/>
+            <class name="auto.testcases.ProductSearchTest"/>
+            <class name="auto.testcases.ShopcartTest"/>
+            <class name="auto.testcases.RegisterTest"/>
 
         </classes>
     </test>
