@@ -24,15 +24,15 @@ public class LoginTest extends BaseTest {
      */
     @Test
     public void test_login_success(){
-        //1、准备测试数据
-        String jsonData="{\"principal\":\"waiwai\",\"credentials\":\"lemon123456\",\"appType\":3,\"loginType\":0}";
+        //1、准备测试数据测试
+        String jsonData="{\"principal\":\"admin\",\"credentials\":\"123456\",\"appType\":3,\"loginType\":0}";
         //2、直接调用登录的接口请求
         Response res = ApiCall.login(jsonData);
         //3、断言
         int statusCode = res.getStatusCode();
         Assert.assertEquals(statusCode,200);
         String nickName = res.jsonPath().get("nickName");
-        Assert.assertEquals(nickName,"waiwai");
+        Assert.assertEquals(nickName,"admin");
     }
 
     @DataProvider
